@@ -9,3 +9,11 @@ BlogBoard is an end-to-end, fully automated blogging platform. It autonomously s
 
 Powered by **LangGraph** for stateful workflow execution and **Groq** for blazing-fast LLM inference, it ensures that high-quality, zero-fluff, production-grade articles are generated and deployed automatically via **GitHub Actions**.
 
+## Library Requirements
+
+ - Python 3.12+
+ - langgraph>=0.2.20
+ - groq>=0.11.0
+ - python-dotenv>=1.0.1
+ - uv (for dependency management)
+
