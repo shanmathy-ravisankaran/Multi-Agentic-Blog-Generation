@@ -17,3 +17,10 @@ Powered by **LangGraph** for stateful workflow execution and **Groq** for blazin
  - python-dotenv>=1.0.1
  - uv (for dependency management)
 
+## Getting Started
+
+This will help you understand how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+## Installation Steps
+
