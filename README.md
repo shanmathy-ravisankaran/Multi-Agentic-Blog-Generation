@@ -24,3 +24,54 @@ To get a local copy up and running follow these simple example steps.
 
 ## Installation Steps
 
+### Installation from GitHub
+
+Follow these steps to install and set up the project directly from the GitHub repository:
+
+1. **Clone the Repository**
+   - Open your terminal or command prompt.
+   - Navigate to the directory where you want to install the project.
+   - Run the following command to clone the GitHub repository:
+     ```bash
+     git clone https://github.com/shanmathy-ravisankaran/Multi-Agentic-Blog-Generation.git
+     ```
+
+2. **Create a Virtual Environment** (Recommended)
+   - It's a good practice to create a virtual environment to manage project dependencies. Run the following command:
+     ```bash
+     uv venv
+     ```
+
+3. **Activate the Virtual Environment**
+   - Activate the virtual environment based on your operating system:
+       ```bash
+       # On Linux/Mac:
+       source .venv/bin/activate
+       # On Windows:
+       .venv\Scripts\activate
+       ```
+
+4. **Install Dependencies**
+   - Navigate to the project directory:
+     ```bash
+     cd BlogBoard-AI-Blog-Generator
+     ```
+   - Run the following command to install project dependencies:
+     ```bash
+     uv pip install -r backend/requirements.txt
+     ```
+
+5. **Run the Project**
+   - Start the backend pipeline by running the appropriate command:
+     ```bash
+     python backend/run.py
+     ```
+
+6. **Access the Project**
+   - Serve the frontend locally using Python's built-in HTTP server:
+     ```bash
+     python -m http.server 8000 --directory frontend
+     ```
+   - Open a web browser and navigate to `http://localhost:8000`.
+
+
