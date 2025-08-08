@@ -75,3 +75,45 @@ Follow these steps to install and set up the project directly from the GitHub re
    - Open a web browser and navigate to `http://localhost:8000`.
 
 
+## API Key Setup
+
+To use this project, you need an API key from Groq to power the Large Language Model inference. Follow these steps to obtain and set up your API key:
+
+1. **Get API Key:**
+   - Visit the Groq Console at [console.groq.com](https://console.groq.com/).
+   - Follow the instructions to create an account and obtain your API key.
+
+2. **Set Up API Key:**
+   - Create a file named `.env` in the project root.
+   - Add your API key to the `.env` file:
+     ```dotenv
+     GROQ_API_KEY=your_api_key_here
+     ```
+
+   **Note:** Keep your API key confidential. Do not share it publicly or expose it in your code.<br>
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+• **Report bugs**: If you encounter any bugs, please let us know. Open up an issue and let us know the problem.
+
+• **Contribute code**: If you are a developer and want to contribute, follow the instructions below to get started!
+
+1. Fork the Project
+2. Create your Feature Branch
+3. Commit your Changes
+4. Push to the Branch
+5. Open a Pull Request
+
+• **Suggestions**: If you don't want to code but have some awesome ideas, open up an issue explaining some updates or improvements you would like to see!
+
+#### Don't forget to give the project a star! Thanks again!
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.<br>
+
+## Acknowledgements
+
+We'd like to extend our gratitude to all individuals and organizations who have played a role in the development and success of this project. Your support, whether through contributions, inspiration, or encouragement, has been invaluable. Thank you for being a part of our journey.
